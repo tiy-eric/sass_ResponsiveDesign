@@ -12,6 +12,12 @@ html, body {
   margin-left:200px;
 }
 
+@media (max-width: 480px) {
+  .left_indent {
+    margin-left:50px;
+  }
+} 
+
 $backgroundimage: url("http://preview.fancythemes.com/coming-soon/wp-content/plugins/fancy-coming-soon-maintenance-mode/assets/images/bg.jpg");
 
 @import "_header.scss";

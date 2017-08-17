@@ -28,10 +28,16 @@ body {
 
       content: "";
   }
+  
+  @media (max-width: 480px) {
+    &:after {
+      border-right: 0;
+    }
+  } 
 
   .Body_content {
     clear: both;
-    width: 500px;
+    max-width: 500px;
     padding-top: 20px;
     padding-bottom: 400px;
     position: relative;
@@ -193,3 +199,4 @@ body {
     }
 
   }
+  
