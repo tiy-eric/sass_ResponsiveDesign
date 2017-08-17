@@ -1,0 +1,18 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.left_indent {
+  margin-left:200px;
+}
+
+$backgroundimage: url("http://preview.fancythemes.com/coming-soon/wp-content/plugins/fancy-coming-soon-maintenance-mode/assets/images/bg.jpg");
+
+@import "_header.scss";
+@import "_body.scss";

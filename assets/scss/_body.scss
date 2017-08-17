@@ -1,0 +1,195 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+@font-face {
+    font-family: "ionicons";
+    src: url("../icons/ionicons.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-image: $backgroundimage;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Source Sans Pro";
+  color: white;
+
+  &:after {
+      border-right: 1px dashed;
+
+      width: 1px;
+      height: 100%;
+
+      position: fixed;
+      top: 0;
+      left: 100px;
+      z-index: -1;
+
+      content: "";
+  }
+
+  .Body_content {
+    clear: both;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 400px;
+    position: relative;
+    top: -1em;
+
+    #email_group {
+      display: flex;
+      padding-top: 20px;
+
+      .email_field {
+        align-self: flex-start;
+        background: none;
+        outline: none;
+        border-radius: 20px 0 0 20px;
+        border: 1px solid;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 38px;
+        width: 200px;
+        height: 40px;
+        padding: 0 20px;
+
+        input {
+          background: none;
+          color: white;
+          border: 0;
+          font-size:15px;
+
+        }
+      }
+
+      }
+      button {
+          position: relative;
+          right: 20px;
+          transition-duration: 0.25s;
+          background: white;
+          color:rgba(0, 0, 0, 0.55);
+      }
+
+      button:before {
+        font-family: ionicons;
+        content: "\f3fd"
+
+      }
+
+    }
+    .icon:hover {
+      background-color: green;
+
+    }
+
+    .icon {
+      height: 40px;
+      width: 40px;
+      display: inline-block;
+      background-color: white;
+      outline: none;
+      border-radius: 50%;
+      border: none;
+      font-size: 38px;
+      line-height: 19px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    h1 {
+      margin: 0 0 22px 0;
+      display: flex;
+      flex-wrap: wrap;
+      font-weight: 300;
+      font-size:38px;
+      padding-top:83px;
+
+      .bolder {
+        font-weight: 900;
+      }
+    }
+
+    p {
+      margin-right:20px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight:bold;
+    }
+
+    .Social_row {
+        padding-top: 50px;
+
+      .Twitter:hover {
+        background-color: #55acee;
+        position: relative;
+        right: 8px;
+      }
+
+      .Twitter:before {
+        font-family: ionicons;
+        content: "\f243";
+        border-radius: 50%;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: -5px;
+        color:rgba(0, 0, 0, 0.55);
+        }
+
+      .Facebook:hover {
+        background-color: #4e69a2;
+        position: relative;
+        right: 8px;
+      }
+
+      .Facebook:before {
+        font-family: ionicons;
+        content: "\f231";
+        border-radius: 50%;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: -5px;
+        color:rgba(0, 0, 0, 0.55);
+        }
+
+      .Email:hover{
+        background-color: #49b266;
+        position: relative;
+        right: 8px;
+
+      }
+
+      .Email:before {
+        font-family: ionicons;
+        content: "\f10f";
+        border-radius: 50%;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: -5px;
+        color:rgba(0, 0, 0, 0.55);
+        }
+      }
+
+    footer {
+      padding-top: 50px;
+      a {color:white;
+        text-decoration: none;
+        }
+    }
+
+  }

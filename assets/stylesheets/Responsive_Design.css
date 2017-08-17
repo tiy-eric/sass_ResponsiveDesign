@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.left_indent {
+  margin-left: 200px; }
+
+header {
+  margin: 0;
+  width: 100%;
+  height: 201px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.25); }
+  header .status {
+    background-color: #ffffff;
+    position: relative;
+    height: 1px;
+    width: 90%;
+    left: 0;
+    display: flex;
+    justify-content: flex-end; }
+    header .status span {
+      border-left: 1px solid;
+      font-size: 12px;
+      line-height: 20px;
+      width: 1px;
+      height: 21px;
+      padding-left: 5px;
+      position: absolute;
+      top: -10px;
+      right: -6px; }
+  header .logo {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    padding: 0;
+    margin: 0; }
+  header img {
+    width: 80px;
+    height: 80px; }
+
+@font-face {
+  font-family: "ionicons";
+  src: url("../icons/ionicons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background-image: url("http://preview.fancythemes.com/coming-soon/wp-content/plugins/fancy-coming-soon-maintenance-mode/assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Source Sans Pro";
+  color: white; }
+  body:after {
+    border-right: 1px dashed;
+    width: 1px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100px;
+    z-index: -1;
+    content: ""; }
+  body .Body_content {
+    clear: both;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 400px;
+    position: relative;
+    top: -1em; }
+    body .Body_content #email_group {
+      display: flex;
+      padding-top: 20px; }
+      body .Body_content #email_group .email_field {
+        align-self: flex-start;
+        background: none;
+        outline: none;
+        border-radius: 20px 0 0 20px;
+        border: 1px solid;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 38px;
+        width: 200px;
+        height: 40px;
+        padding: 0 20px; }
+        body .Body_content #email_group .email_field input {
+          background: none;
+          color: white;
+          border: 0;
+          font-size: 15px; }
+    body .Body_content button {
+      position: relative;
+      right: 20px;
+      transition-duration: 0.25s;
+      background: white;
+      color: rgba(0, 0, 0, 0.55); }
+    body .Body_content button:before {
+      font-family: ionicons;
+      content: ""; }
+  body .icon:hover {
+    background-color: green; }
+  body .icon {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: white;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    font-size: 38px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    cursor: pointer; }
+  body h1 {
+    margin: 0 0 22px 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size: 38px;
+    padding-top: 83px; }
+    body h1 .bolder {
+      font-weight: 900; }
+  body p {
+    margin-right: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold; }
+  body .Social_row {
+    padding-top: 50px; }
+    body .Social_row .Twitter:hover {
+      background-color: #55acee;
+      position: relative;
+      right: 8px; }
+    body .Social_row .Twitter:before {
+      font-family: ionicons;
+      content: "\f243";
+      border-radius: 50%;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: -5px;
+      color: rgba(0, 0, 0, 0.55); }
+    body .Social_row .Facebook:hover {
+      background-color: #4e69a2;
+      position: relative;
+      right: 8px; }
+    body .Social_row .Facebook:before {
+      font-family: ionicons;
+      content: "\f231";
+      border-radius: 50%;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: -5px;
+      color: rgba(0, 0, 0, 0.55); }
+    body .Social_row .Email:hover {
+      background-color: #49b266;
+      position: relative;
+      right: 8px; }
+    body .Social_row .Email:before {
+      font-family: ionicons;
+      content: "\f10f";
+      border-radius: 50%;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: -5px;
+      color: rgba(0, 0, 0, 0.55); }
+  body footer {
+    padding-top: 50px; }
+    body footer a {
+      color: white;
+      text-decoration: none; }
+
+/*# sourceMappingURL=Responsive_Design.css.map */
